@@ -1,39 +1,49 @@
-/* Reset básico */
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-/* Fundo geral escuro com texto claro */
 body {
-   background-color: #0d0d0d;
-   color: #f5f5f5;
-   line-height: 1.6;
-   padding: 20px;
+  background-color: #1b1b1b;
+  color: #f0f0f0;
+  line-height: 1.7;
+  padding: 20px;
 }
 
-/* Cabeçalho principal */
 header {
-   padding: 20px;
-   text-align: center;
-   font-size: smaller;
+  background: linear-gradient(to right, #000000, #3b3b3b, #000000); 
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
-   font-size: 2.5em;
-   color: #ff3333;
-   text-shadow: 2px 2px #660000;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
-/* Parágrafos do header */
+h1 {
+  font-size: 2.2rem;
+  color:  #ff3333;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: 30px 0;
+}
+
 header p {
-   margin-top: 10px;
-   color: #e0e0e0;
+  font-style: italic;
+  font-size: 1.0em;
+  opacity: 0.85;
 }
 
-/* Títulos principais */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
 h2 {
    color: #b30000;
    border-bottom: 2px solid #b30000;
@@ -41,13 +51,17 @@ h2 {
    font-size: 2em;
 }
 
-/* Títulos de subseções */
-h3, h4 {
+h3 {
    color: #d9a066;
    margin-top: 20px;
 }
 
-/* Seções */
+p {
+  margin: 12px 0;
+  color: #e0e0e0;
+  font-size: 1.05rem;
+}
+
 section {
    margin-bottom: 30px;
    padding: 10px 20px;
@@ -63,7 +77,6 @@ section.biografias {
    padding: 0;
 }
 
-/* Artigos com sombra */
 article {
    background-color: #281b28;
    padding: 15px;
@@ -72,37 +85,40 @@ article {
    box-shadow: 0 0 10px #330000;
 }
 
-/* Figuras */
 figure {
-   margin-top: 15px;
-   text-align: center;
+  margin: 30px auto 15px;
+  text-align: center;
 }
 
 figure img {
-   border: 4px solid #800000;
-   border-radius: 10px;
-   box-shadow: 0 0 20px rgba(255, 0, 0, 0.6), 0 0 30px rgba(128, 0, 128, 0.4);
-   max-width: 100%;
-   height: auto;
-   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  image-rendering: auto; 
 }
 
 figure img:hover {
-   transform: scale(1.03);
-   box-shadow: 0 0 30px rgba(255, 0, 0, 0.8), 0 0 40px rgba(128, 0, 128, 0.6);
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(255, 77, 109, 0.6);
 }
 
 figcaption {
-   margin-top: 8px;
-   font-size: 0.9em;
-   color: white;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #bbbbbb;
 }
 
-/* Rodapé */
 footer {
-   background-color: #0d0d0d;
-   color: #666;
-   text-align: center;
-   padding: 1rem;
-   border-top: 2px solid #8b0000;
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  background-color: #1b1b1b;
+  color: #888;
+  border-top: 2px solid #b30000;
+  font-size: 0.95rem;
 }
