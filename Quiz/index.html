@@ -9,8 +9,10 @@
   </head>
   <body>
     <header>
-      <h1>Quiz para Fãs do Universo Invocação do Mal</h1>
-      <p>Teste seus conhecimentos sobre os filmes e personagens!</p>
+      <h1>Quiz para fãs do Universo Invocação do Mal</h1>
+      <p class="cabecalho">
+        Teste seus conhecimentos sobre os filmes e personagens!
+      </p>
     </header>
 
     <main>
@@ -24,7 +26,8 @@
               name="fullname"
               type="text"
               placeholder="Digite seu nome"
-              required />
+              required
+            />
           </div>
           <div>
             <label for="email">E-mail:</label>
@@ -33,54 +36,59 @@
               name="email"
               type="email"
               placeholder="exemplo@email.com"
-              required />
+              required
+            />
           </div>
           <div>
-            <p>1. Qual foi o primeiro filme lançado do universo Invocação do Mal?</p>
+            <p>
+              1. Qual foi o primeiro filme lançado do universo Invocação do Mal?
+            </p>
             <figure>
               <img
-                class="invdomal"
                 src="https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2023/11/29213551/1758207.jpg-r_1920_1080-f_jpg-q_x-xxyxx_binary_239871.jpg"
                 alt="cena do filme invocação do mal"
               />
             </figure>
-            <input type="radio" name="q1" value="invocacao" id="q1invocacao"/>
-            <label for="q1invocacao">Invocação do Mal</label><br>
+            <input type="radio" name="q1" value="invocacao" id="q1invocacao" />
+            <label for="q1invocacao">Invocação do Mal</label><br />
 
             <input type="radio" name="q1" value="annabelle" id="q1annabelle" />
-            <label for="q1annabelle">Annabelle</label><br>
+            <label for="q1annabelle">Annabelle</label><br />
 
             <input type="radio" name="q1" value="freira" id="q1freira" />
-            <label for="q1freira">A Freira</label><br>
+            <label for="q1freira">A Freira</label><br />
           </div>
           <div>
-            <p>2. Quais desses personagens aparecem em mais de um filme do universo?</p>
+            <p>
+              2. Quais desses personagens aparecem em mais de um filme do
+              universo?
+            </p>
             <figure>
               <img
-                class="invdomal2"
                 src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2016/06/09113341/THE-CONJURING-2-11.jpg"
                 alt="outra cena do filme invocação do mal"
               />
             </figure>
             <input type="checkbox" name="q2" value="lorraine" id="q2lorraine" />
-            <label for="q2lorraine">Lorraine Warren</label><br>
+            <label for="q2lorraine">Lorraine Warren</label><br />
 
             <input type="checkbox" name="q2" value="valak" id="q2valak" />
-            <label for="q2valak">Valak (A Freira)</label><br>
+            <label for="q2valak">Valak (A Freira)</label><br />
 
             <input type="checkbox" name="q2" value="charlie" id="q2charlie" />
-            <label for="q2charlie">Charlie (espírito do elevador)</label><br><br>
+            <label for="q2charlie">Charlie (espírito do elevador)</label><br /><br />
           </div>
           <div>
             <label for="comentario">
-              3. Deixe um comentário ou conte-nos sobre o momento mais assustador dos filmes:</label><br>
+              3. Deixe um comentário ou conte-nos sobre o momento mais
+              assustador dos filmes:</label><br />
             <textarea
               id="comentario"
               name="comentario"
               placeholder="Escreva aqui..."
-              rows="5"
-              cols="50" 
-              ></textarea>
+              rows="8"
+              cols="80"
+            ></textarea>
           </div>
           <button type="submit">Enviar respostas</button>
         </form>
