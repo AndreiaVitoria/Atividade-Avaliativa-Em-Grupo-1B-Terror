@@ -175,3 +175,8 @@ footer {
   border-top: 2px solid #b30000;
   font-size: 0.95rem;
 }
+
+iframe {
+  border: 3px solid #b30000;
+  border-radius: 8px;
+}
