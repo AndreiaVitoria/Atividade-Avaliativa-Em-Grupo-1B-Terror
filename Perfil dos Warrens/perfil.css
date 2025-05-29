@@ -36,7 +36,7 @@ h1 {
 
 header p {
   font-style: italic;
-  font-size: 1.0em;
+  font-size: 1.2em;
   opacity: 0.85;
 }
 
@@ -82,7 +82,6 @@ article {
    padding: 15px;
    margin-top: 20px;
    border-radius: 5px;
-   box-shadow: 0 0 10px #330000;
 }
 
 figure {
