@@ -105,6 +105,28 @@ nav li a:hover {
   color: white;
 }
 
+figure {
+  margin: 30px auto 15px;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  image-rendering: auto; 
+}
+
+figure img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(255, 77, 109, 0.6);
+}
+
 .curiosidades_titulo {
    background-color: transparent;
    border: none;
