@@ -116,10 +116,17 @@ section {
 
 article {
    background-color: #281b28;
-   padding: 15px;
+   padding: 20px;
    margin-top: 20px;
    border-radius: 5px;
+   margin: 30px auto;
+   border-radius: 12px;
+   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+   max-width: 1050px;
+   border-style: double;
+   border-color: #d9a066;
 }
+
 
 figure {
   margin: 30px auto 15px;
