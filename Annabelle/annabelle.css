@@ -19,6 +19,12 @@ header h1 {
   margin-bottom: 10px;
 }
 
+.cabecalho {
+  font-style: italic;
+  font-size: 1.2em;
+  opacity: 0.85;
+}
+
 body {
   background-color: #1b1b1b;
   color: #f0f0f0;
@@ -79,7 +85,7 @@ nav li a {
   color: #ffffff;
   text-decoration: none;
   font-size: 1rem;
-  padding: 8px;
+  padding-bottom: 8px;
   border-radius: 6px;
   transition: background 0.3s, color 0.3s;
 }
