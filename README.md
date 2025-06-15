@@ -73,7 +73,7 @@ Este projeto foi desenvolvido por:
   - Márcia Vitória;
   - Pietra Fernandes.
 
-- **Disciplina:** Desenvolvimento e Informática Aplicado à Web
-- **Docente:** Prof. Ricart
+- **Disciplina:** Desenvolvimento e Informática Aplicada à Web.
+- **Docente:** Prof. Ricart.
 
 ---
