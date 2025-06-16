@@ -133,7 +133,7 @@ figure img:hover {
    padding: 0;
 }
 
-#entidades table {
+table {
   width: 90%;
   max-width: 1050px;
   margin: 30px auto;
@@ -143,22 +143,22 @@ figure img:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-#entidades th, #entidades td {
+th, td {
   padding: 16px;
   text-align: left;
 }
 
-#entidades th {
+th {
   background-color: #6a4c93;
   color: #ffffff;
 }
 
-#entidades td {
+td {
   background-color: #322f3d;
   color: #f0f0f0;
 }
 
-#entidades tr:nth-child(even) td {
+tr:nth-child(even) td {
   background-color: #3d3a4a;
 }
 
@@ -171,6 +171,7 @@ article {
   max-width: 1000px;
   border-style: double;
   border-color: #d9a066;
+  text-align: justify;
 }
 
 footer {
