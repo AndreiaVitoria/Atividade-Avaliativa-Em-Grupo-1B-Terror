@@ -173,16 +173,6 @@ article {
   border-color: #d9a066;
 }
 
-article ul {
-  padding-left: 24px;
-  list-style: disc;
-}
-
-article li {
-  font-size: 1.1rem;
-  margin-bottom: 8px;
-}
-
 footer {
   margin-top: 40px;
   text-align: center;
